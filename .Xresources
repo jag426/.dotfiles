@@ -1,5 +1,5 @@
 !!!! font
-URxvt.font: xft:Dejavu Sans Mono:size=12:antialiasing=true
+URxvt.font: xft:Inconsolata Awesome:size=14:antialiasing=true
 
 !!!! Solarized color scheme for the X Window System
 ! http://ethanschoonover.com/solarized
