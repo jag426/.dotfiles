@@ -31,5 +31,6 @@ filetype plugin indent on	" required
 
 " Colorscheme
 syntax on
+set background=dark
 colorscheme solarized
 call togglebg#map("<F5>")
