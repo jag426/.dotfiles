@@ -15,6 +15,8 @@ while true; do b=$(a=`ping 8.8.8.8 -c 1 2> /dev/null | head -n 2 | tail -n 1`; i
 # bat monitor
 while true; do a=`acpi | grep -o "[[:digit:]]*\%" | grep -o "[[:digit:]]*"`; echo "mybatbar:set_value($a)" | awesome-client; sleep 30; done &
 
+# xcompmgr (transparency)
+xcompmgr -c &
 # unclutter (must be last before exec)
 unclutter &
 # start xfce
