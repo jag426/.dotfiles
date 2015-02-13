@@ -12,6 +12,12 @@ antigen bundle arialdomartini/oh-my-git
 antigen theme arialdomartini/oh-my-git-themes oppa-lana-style
 
 ##
+# ls colors
+##
+
+eval $(dircolors ~/.dircolors)
+
+##
 # Exports
 ##
 
@@ -25,5 +31,4 @@ export BROWSER=chromium
 alias v='vim'
 alias vi='vim'
 alias t='termite &; disown'
-
-eval $(dircolors ~/.dircolors)
+alias x='exit'
