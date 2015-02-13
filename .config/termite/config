@@ -1,6 +1,18 @@
 [options]
 font = Inconsolata Awesome 14
 
+scroll_on_output = false
+scroll_on_keystroke = true
+allow_bold = true
+clickable_url = true
+search_wrap = true
+
+cursor_blink = on
+cursor_shape = block
+
+# $BROWSER used as default browser
+#browser = chromium
+
 # Solarized dark color scheme
 
 [colors]
@@ -11,7 +23,7 @@ background = rgba(0, 43, 54, 0.8)
 cursor = #93a1a1
 
 # if unset, will reverse foreground and background
-#highlight = #839496
+highlight = #839496
 
 # colors from color0 to color254 can be set
 color0 = #073642
