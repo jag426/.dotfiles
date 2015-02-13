@@ -25,3 +25,5 @@ export BROWSER=chromium
 alias v='vim'
 alias vi='vim'
 alias t='termite &; disown'
+
+eval $(dircolors ~/.dircolors)
