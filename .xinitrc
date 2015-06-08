@@ -8,7 +8,7 @@ setxkbmap -option caps:swapescape
 xrdb -merge ~/.Xresources
 
 # f.lux
-xflux -z 14850
+xflux -z 94041
 
 # ping monitor
 while true; do b=$(a=`ping 8.8.8.8 -c 1 2> /dev/null | head -n 2 | tail -n 1`; if [[ "$a" =~ "64 bytes from 8.8.8.8" ]]; then echo `echo $a | grep -o "time=[[:digit:]]*" | grep -o "[[:digit:]]*"`; else echo 10000; fi); b=`echo "l($b/3)" | bc -l`; echo "mypinggraph:add_value($b)" | awesome-client; sleep 3; done &
